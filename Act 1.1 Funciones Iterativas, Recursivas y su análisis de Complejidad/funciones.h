@@ -28,6 +28,16 @@ class Funciones{
 *números enteros (tipo 32 bits = 4 bytes) sin decimales que se encuentran dentro 
 *del rango -2147483648 a 2147483647.
 */
+
+/*
+ * sumaIterativa
+ *
+ * @param int n
+ * @return long
+ * 
+ * Si se pone como parámetro un número menor 0 devuelve 0
+ * 
+*/
 long Funciones :: sumaIterativa(int n) {
     long acum = 0;
     if (n >= 1){
@@ -42,6 +52,15 @@ long Funciones :: sumaIterativa(int n) {
     
 }
 
+/*
+ * sumaRecursiva
+ *
+ * @param int n
+ * @return long
+ * 
+ * Si se pone como parámetro un número menor 0 devuelve 0
+ * 
+*/
 long Funciones :: sumaRecursiva(int n) {
 	if (n == 1) {
 		return 1;
@@ -54,6 +73,15 @@ long Funciones :: sumaRecursiva(int n) {
 	}
 }
 
+/*
+ * sumaDirecta
+ *
+ * @param int n
+ * @return long
+ * 
+ *Si se pone como parámetro un número menor 0 devuelve 0
+
+*/
 long Funciones :: sumaDirecta(int n){
     if( n >= 1){
         return (n*(n+1))/2;
