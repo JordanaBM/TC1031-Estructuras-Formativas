@@ -20,7 +20,7 @@ Es necesario recorrer el árbol completo para poder calcular la altura máxima q
 
 **Análisis de complejidad temporal**
 
-Se recorre el árbol completo hasta encontrar el valor del cual se requieren los ancestros, por lo cual el peor de los casos en donde el último nodo que se revise sea el que debamos regresar sus ancentros su complejidad será O(n) <-- lineal.
+Se recorre siempre la "mitad del árbol", dependiendo si nuestro valor a buscar es menor o mayor, por lo cual su complejidad es n/2 normalmente, de todos modos sabemos que esto se redondea a O(n) <-- lineal, el cual es el peor de los casos.
 
 ## whatlevelamI
 
