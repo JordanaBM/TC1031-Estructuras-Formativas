@@ -2,5 +2,6 @@
 
 
 # Correcciones en actividades
- ### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad/
+ ### Act 3.2 - Árbol Heap: Implementando una fila priorizada/
+El programa tenía error en el anális de complejidad de las funciones push() y pop(), ya se corrigieron a O(log n) y se explicó la razón de esa complejidad en el peor de los casos.
 
