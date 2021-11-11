@@ -2,12 +2,13 @@
 
 **Análisis de complejidad temporal**
 
-Agrega el valor a la raíz, para después comparar elementos y swapearlos cada vez en partes más pequeñas, por lo cuál, su complejidad es en el peor de los casos O(n log n) <--Logarítmica.
+Agrega el valor a la raíz, para después comparar elementos y dado el caso con el heapify() se podría o no realizar un swap en cada uno de los niveles para mantener la estructura del árbol, por lo cuál, su complejidad es en el peor de los casos O(log n) <--Logarítmica.
+
 ## pop
 
 **Análisis de complejidad temporal**
 
-Elimina el valor prioritario, para después comparar elementos y swapearlos cada vez en partes más pequeñas, por lo cuál, su complejidad es en el peor de los casos O(n log n) <--Logarítmica.
+Elimina el valor prioritario, para después comparar elementos y dado el caso con el heapify() se podría o no realizar un swap en cada uno de los niveles para mantener la estructura del árbol, por lo cuál, su complejidad es en el peor de los casos O(log n) <--Logarítmica.
  
 ## top
 
